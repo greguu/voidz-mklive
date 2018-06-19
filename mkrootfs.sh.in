@@ -138,7 +138,7 @@ mount_pseudofs
 # base-voidstrap package into the rootfs.  This will not produce a
 # bootable system but will instead produce a base component that can
 # be quickly expanded to perform other actions on.
-run_cmd_target "xbps-install -S $XBPS_CONFFILE $XBPS_CACHEDIR $XBPS_REPOSITORY -r $ROOTFS -y base-voidstrap"
+run_cmd_target "xbps-install -S $XBPS_CONFFILE $XBPS_CACHEDIR $XBPS_REPOSITORY -r $ROOTFS -y base-system-busybox-zaurus"
 
 # Enable en_US.UTF-8 locale and generate it into the target ROOTFS.
 # This is a bit of a hack since some glibc stuff doesn't really work
