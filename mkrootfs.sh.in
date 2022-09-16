@@ -74,7 +74,7 @@ _EOF
 # ########################################
 
 # Set the default system package.
-SYSPKG="base-voidstrap"
+SYSPKG="base-system-busybox-zaurus"
 
 # Boilerplate option parsing.  This script supports the bare minimum
 # needed to build an image.
