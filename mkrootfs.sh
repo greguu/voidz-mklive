@@ -76,7 +76,8 @@ usage() {
 # ########################################
 
 # Set the default system package.
-SYSPKG="base-container-full"
+#SYSPKG="base-container-full"
+SYSPKG="base-system-busybox-zaurus"
 
 # Boilerplate option parsing.  This script supports the bare minimum
 # needed to build an image.
